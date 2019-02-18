@@ -1,0 +1,146 @@
+/********BASE STYLES********/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#about{
+  height: 150px;
+  line-height: 30px;
+  margin-bottom: 36px;
+}
+
+
+/********GRID********/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  height: 210px;
+  width: 378px;
+  float: left;
+}
+
+/********HEADER********/
+
+header{
+  height: 100px;
+}
+
+header h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header h1 span{
+  color: #77a466;
+}
+
+nav{
+  float: right;
+  padding: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #77a466;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+/********ABOUT********/
+
+#about h2{
+  color: #77a466;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+/********MENU REVIEWS AND CONTACT********/
+
+
+#menu.third-width{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-top: 24px;
+}
+
+#reviews.third-width, #contact.third-width{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-top: 24px;
+  border-left: 1px solid #dedbdc;
+  padding-left: 32px;
+}
+
+#menu h3{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#menu ul{
+  padding-left: 0px;
+}
+
+#menu ul li{
+  color: #77a466;
+  font-size: 16px;
+  list-style: none;
+  line-height: 40px;
+}
+
+#reviews h3{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contact h3{
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#reviews p{
+  line-height: 24px;
+  margin-right: 24px;
+}
+
+#contact p{
+  line-height: 12px;
+}
+
+/*****FOOTER*****/
+footer{
+  clear: both;
+}
+
+footer h2{
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 72px;
+}
+
+footer h2 span{
+  font-family: 'Pinyon Script', cursive;
+  color: #77a466;
+  text-transform: lowercase;
+  font-weight: normal;
+}
